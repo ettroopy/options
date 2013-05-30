@@ -1,0 +1,30 @@
+{
+    "name": "troopy/options",
+    "description": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Israel Ortuño",
+            "email": "ai.ortuno@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x",
+        "illuminate/database": "4.0.x"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Troopy\\Options": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.0-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
