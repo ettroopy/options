@@ -18,7 +18,7 @@ class TroopyOptions extends Migration {
 
 			$table->string('key', 32);
 			$table->text('value');
-∫		});
+		});
 	}
 
 	/**
