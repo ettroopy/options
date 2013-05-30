@@ -2,7 +2,7 @@
 
 use Illuminate\Support\ServiceProvider;
 
-class ModelServiceProvider extends ServiceProvider {
+class OptionsServiceProvider extends ServiceProvider {
 
 	/**
 	 * Indicates if loading of the provider is deferred.
