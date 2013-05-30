@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class TroopyOptions extends Migration {
+class CreateOptionsTable extends Migration {
 
 	/**
 	 * Run the migrations.
